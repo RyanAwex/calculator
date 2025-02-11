@@ -50,7 +50,13 @@ form .display input {
 form input.equal {
   width: 145px;
 }
+input{
+  transition: 0.2s;
+}
 
+input:hover {
+  transform: scale(1.1);
+}
 form input.operator {
   color: #4bffed;
 }
